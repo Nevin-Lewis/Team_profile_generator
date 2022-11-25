@@ -1,28 +1,37 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+const NEXT = require('./src/code.js');
+const Engineer = require('./lib/Engineer');
+const Manager = require('./lib/Manager');
+
 inquirer
     .prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'Name',
             message: "What is the team manager's name?",
           },
           {
             type: 'input',
             name: 'Id',
-            message: "What is your employee ID",
+            message: "What is your team manager's ID",
           },
           {
             type: 'input',
-            name: 'Contact',
-            message: 'What is your email adress',
+            name: 'Email',
+            message: "What is the team manager's email adress",
           },
           {
             type: 'input',
             name: 'Office_number',
-            message: 'What is your office number',
+            message: "What is team manager's office number",
           },
+          {
+            type: "list",
+            name: "Next_Steps",
+            choices: ["Add an engineer", "Add an intern", "finish building my team"]
+          }
        
         ])
         .then((answers) => {
-        const pagecontent = generateMarkdown(answers);
+        NEXT.Next(answers)
+        })
