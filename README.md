@@ -66,4 +66,5 @@ If you have any quetsions about the repo, open an issue or contact me directly a
 ![Screenshot](./Assets/Tean_profile_generator.png)
 
 ## Usage Video
-![Video](./Assets/Untitled_%20Nov%2025%202022%208_25%20AM.webm)
+[Untitled_ Nov 25 2022 8_25 AM.webm](https://user-images.githubusercontent.com/64855834/204093747-2b6878ba-01a4-4a8c-bbed-720487ff0384.webm)
+
