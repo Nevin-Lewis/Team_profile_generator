@@ -4,7 +4,7 @@
     
 ## Description
     
-This is the repo I generated for my team profile generator program
+This is the repo I generated for my team profile generator program. After copying the repo, “npm i” will install the necessary dependencies. After that, opening a terminal and running node index.js will initiate the Team Profile generator. Input all the relative data for the Manager and select an option to complete your page or add other members. Contiue adding memebers until the team is complete. Once all members are added select the finish building my team option. Input a name for the index file. After that is done a .html should be generated that has been filled with your entire team.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,16 +13,20 @@ This is the repo I generated for my team profile generator program
 * [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
+* [Photo](#photo)
+
+
 
 ## Installation
 To install necessary depnedencies, run the follow commands:
 
 ```
-npm i, npm start, jest, node index
+npm i
 ```
 
 ## Usage
 
+After the necessary dependencies are downloaded run node index.js in the terminal to initiate the app. Answer all questions and then add more teams or select finish building my team. After that is completed a .html file will be generated and placed in the Dist folder.
 
 ## License
 
@@ -46,11 +50,20 @@ MIT License
 N/A
 
 ## Test
-To run tess, run the following command:
+To run test, run the following command:
 
 ```
-jest employee, jest engineer, jest intern, jest manager	
+jest employee
+jest engineer
+jest intern 
+jest manager	
 ```
 
 ## Questions
 If you have any quetsions about the repo, open an issue or contact me directly at github.com/nevin-lewis
+
+## Photo
+![Screenshot](./Assets/Tean_profile_generator.png)
+
+## Usage Video
+![Video](./Assets/Untitled_%20Nov%2025%202022%208_25%20AM.webm)
