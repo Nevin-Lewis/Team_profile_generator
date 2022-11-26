@@ -14,6 +14,7 @@ This is the repo I generated for my team profile generator program. After copyin
 * [Test](#test)
 * [Questions](#questions)
 * [Photo](#photo)
+* [Video](#usage video)
 
 
 
